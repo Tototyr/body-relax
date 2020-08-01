@@ -1,0 +1,47 @@
+
+.text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+.text--xs {
+    font-size: 18px;
+}
+
+.text--s {
+    font-size: 20px;
+}
+
+.text--m {
+    font-size: 26px;
+}
+
+.text--l {
+    font-size: 80px;
+}
+
+.text--ghost {
+    color: #BDBDBD;
+}
+
+.text--brand {
+    background: linear-gradient(232.83deg, #2DB7E6 42.39%, #38EBCB 85.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #38EBCB;
+    display: table;
+}
+
+.text--dirt {
+    color: #4F4F4F;
+}
+
+.text--inverse {
+    color: #fff;
+}
+
+.text--sky {
+    color: #2EB8E6;
+}
