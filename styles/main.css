@@ -1,0 +1,44 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2DB7E6;
+}
+
+.main__title-text--xxl {
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 135px;
+    text-transform: uppercase;
+    font-family: "Proxima Nova Bl";
+    font-style: normal;
+    color: #2DB7E6;
+
+}
+
+.main__title-text--xl {
+    font-weight: 800;
+    font-family: "Proxima Nova Bl";
+    color: #2DB7E6;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+.main__info {
+    margin: 15px 0px 30px 0px;
+    width: 370px;
+    font-family:  "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}

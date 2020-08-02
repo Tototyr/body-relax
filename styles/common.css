@@ -1,9 +1,55 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Thin'), local('Proxima-Nova-Thin'),
+    url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+    url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+    url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../image/bg-circl.png)  no-repeat ;
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1500px){
+    .container {
+        max-width: 1370px;
+    }
+}
 
 .text {
-    font-family: Proxima Nova;
+    font-family: "Proxima Nova Rg";
     font-style: normal;
     font-weight: normal;
-    line-height: 22px;
 }
 
 .text--xs {
@@ -19,7 +65,19 @@
 }
 
 .text--l {
+    font-size: 35px;
+}
+
+.text--xxl {
     font-size: 80px;
+}
+
+.text--xl {
+    font-size: 40px;
+}
+
+.text--clear {
+    color: rgba(255, 255, 255, 0.3);s
 }
 
 .text--ghost {
@@ -45,3 +103,54 @@
 .text--sky {
     color: #2EB8E6;
 }
+
+.button {
+    font-family: ProximaNovaRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.button--danger {
+    background: linear-gradient(0deg, #FA4884, #FA4884);
+}
+
+.button--xs {
+    width: 196px;
+    height: 50px;
+}
+
+.button--s {
+    width: 250px;
+    height: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button--success {
+    background: linear-gradient(0deg, #38EBCB, #38EBCB);
+}
+
+.button--ghost {
+    background: linear-gradient(187.07deg, #2DB7E6 43.88%, #38EBCB 107.05%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
