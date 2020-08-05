@@ -1,0 +1,36 @@
+
+.waiting-rate__card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 420px;
+    max-height: 540px;
+    margin-top: 50px;
+}
+
+.waiting-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.waiting-rate__card-info {
+    padding: 0 50px;
+}
+
+.waiting-rate__card-title  {
+    padding: 25px;
+}
+
+.waiting-rate__card-info {
+    padding-bottom: 40px;
+}
+
+.waiting-rate__card-icon {
+    padding-top: 40px;
+}

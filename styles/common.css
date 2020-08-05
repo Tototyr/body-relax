@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     z-index: 1;
+    font-family: "Proxima Nova Rg";
 }
 
 .container {
@@ -80,7 +81,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #38EBCB;
-    display: table;
+
 }
 
 .text--dirt {
