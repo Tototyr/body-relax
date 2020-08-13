@@ -4,6 +4,18 @@
     flex-direction: column;
     justify-content: center;
     margin: 100px 0;
+    position: relative;
+}
+
+.main:before {
+    background: url(../image/circles1.png) no-repeat;
+    content: "";
+    width: 1120px;
+    height: 1124px;
+    z-index: -1;
+    position: absolute;
+    left: 98px;
+    top: -270px;
 }
 
 .main__subtitle {
@@ -42,4 +54,11 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+}
+
+.main__image {
+    position: absolute;
+    top: 107px;
+    left: 109px;
+    z-index: 2;
 }

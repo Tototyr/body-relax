@@ -2,8 +2,19 @@
 .our-clients{
     position: relative;
     display: flex;
+    z-index: -1;
 }
 
+
+.our-clients:after {
+    background: url("../image/circles2.png") no-repeat;
+    height: 1124px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 80%;
+    z-index: 1;
+}
 
 .our-clients::before {
     display: block;

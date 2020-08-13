@@ -1,17 +1,34 @@
 
 .body-present {
     position: relative;
+    z-index: -1;
 }
+
+.body-present:before{
+    background: url(../image/circles3.png) no-repeat;
+    height: 1836px;
+    left: 55%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 27%;
+}
+
 
 .body-present::after {
     content: "";
 
-    background:  linear-gradient(233.13deg, #2DB7E6 40.26%, #38EBCB 79.99%);
-    clip-path: polygon(0 35%, 100% 0, 100% 65%, 0 100%);
-    display: block;
-    width: 100%;
-    height: 100%;
     position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -49%;
+    z-index: -1;
+
+    height: 1310px;
+    width: 100%;
+    background: linear-gradient(233.13deg, #2DB7E6 40.26%, #38EBCB 79.99%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }
 
 .body-present__video {
@@ -44,7 +61,7 @@
     flex-direction: column;
 }
 
-.body-present__container:hover .button__play{
+.body-present__video:hover .button__play{
     display: block;
     cursor: pointer;
 }

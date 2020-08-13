@@ -12,6 +12,13 @@
     margin-top: 50px;
 }
 
+
+
+.end-course__title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .waiting-rate {
     display: flex;
     flex-direction: row;
