@@ -61,6 +61,7 @@
 .cost-course__content {
     margin-right: -15px;
     margin-left: -15px;
+    display: flex;
 }
 
 .course__card-subtitle  {
